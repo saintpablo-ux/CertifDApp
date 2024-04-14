@@ -16,9 +16,14 @@ $ cd certificate-verification-dapp
 # Install dependencies
 $ npm install
 
+# Deploy contracts on ganache
+$ cd contracts
+$ truffle migrate
+
 # Start ganache-cli
 $ ganache-cli
 
-# Deploy contrats on ganache
-$ truffle migrate
+# Start the app
+$ cd client
+$ npm start
 ``` 
